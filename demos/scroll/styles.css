@@ -1,0 +1,48 @@
+@import "../../normalize.css";
+
+body{
+    background-color: #101010;
+
+    display: flex;
+    flex-flow: column;
+    gap: 30vh;
+    overflow: hidden;
+}
+
+.white-space{
+    height: 100vh;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+}
+
+.a{
+    margin-top: 300px;
+
+
+    background-color: lightblue;
+}
+
+.b{
+    background-color: aquamarine;
+}
+
+.c{
+    background-color: burlywood;
+    margin-bottom: 500px;
+}
+
+
+.rounded{
+    border-radius: 100%;
+    background-color: #f1f1f1;
+
+    translate: 30vw 0
+}

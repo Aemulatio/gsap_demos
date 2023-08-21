@@ -1,0 +1,9 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
