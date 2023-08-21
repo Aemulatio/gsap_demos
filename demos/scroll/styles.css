@@ -1,4 +1,4 @@
-@import "../../normalize.css";
+@import "../../common.css";
 
 body{
     background-color: #101010;
@@ -46,3 +46,4 @@ body{
 
     translate: 30vw 0
 }
+

@@ -32,10 +32,12 @@ const circle = gsap.timeline({
 
 
 circle.to(".rounded", {
-    scale: 20,
+    scale: 50,
     borderRadius: "20%",
+}).to(".rounded", {
+    at: 80,
+    width: "100vw"
 })
-
 
 
 const lenis = new Lenis()
